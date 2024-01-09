@@ -1,0 +1,237 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple\\Exemple.csproj": {}
+  },
+  "projects": {
+    "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\Example.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\Example.Data.csproj",
+        "projectName": "Example.Data",
+        "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\Example.Data.csproj",
+        "packagesPath": "C:\\Users\\robyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\robyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj",
+        "projectName": "Exemple.Domain",
+        "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj",
+        "packagesPath": "C:\\Users\\robyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\robyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "LanguageExt.Core": {
+              "target": "Package",
+              "version": "[3.4.15, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple\\Exemple.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple\\Exemple.csproj",
+        "projectName": "Exemple",
+        "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple\\Exemple.csproj",
+        "packagesPath": "C:\\Users\\robyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\robyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\Example.Data.csproj": {
+                "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Example.Data\\Example.Data.csproj"
+              },
+              "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj": {
+                "projectPath": "C:\\Zchool\\An4Sem1\\PSSC\\PSSC-Project\\Exemple.Domain\\Exemple.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CSharp.Choices": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

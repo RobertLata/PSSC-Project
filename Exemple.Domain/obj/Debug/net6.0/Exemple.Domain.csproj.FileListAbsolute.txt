@@ -1,0 +1,12 @@
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\bin\Debug\net6.0\Exemple.Domain.deps.json
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\bin\Debug\net6.0\Exemple.Domain.dll
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\bin\Debug\net6.0\Exemple.Domain.pdb
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.csproj.AssemblyReference.cache
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.AssemblyInfoInputs.cache
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.AssemblyInfo.cs
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.csproj.CoreCompileInputs.cache
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.dll
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\refint\Exemple.Domain.dll
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\Exemple.Domain.pdb
+C:\Zchool\An4Sem1\PSSC\Laborator-PSSC\Lucrarea-05\Exemple\Exemple.Domain\obj\Debug\net6.0\ref\Exemple.Domain.dll
