@@ -13,13 +13,13 @@ using Microsoft.Extensions.Logging;
 
 namespace Exemple.Domain
 {
-    public class CalculateTotalPriceWorkflow
+    public class BillingWorkflow
     {
         private readonly IClientsRepository clientsRepository;
         private readonly IProductsRepository productsRepository;
-        private readonly ILogger<CalculateTotalPriceWorkflow> logger;
+        private readonly ILogger<BillingWorkflow> logger;
 
-        public CalculateTotalPriceWorkflow(IClientsRepository clientsRepository, IProductsRepository productsRepository, ILogger<CalculateTotalPriceWorkflow> logger)
+        public BillingWorkflow(IClientsRepository clientsRepository, IProductsRepository productsRepository, ILogger<BillingWorkflow> logger)
         {
             this.clientsRepository = clientsRepository;
             this.productsRepository = productsRepository;

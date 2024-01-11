@@ -17,7 +17,7 @@ namespace Exemple.Domain
                       .Select(ValidateClientProducts(checkClientExists))
                       .Aggregate(CreateEmptyValatedProductsList().ToAsync(), ReduceValidProducts)
                       .MatchAsync(
-                            Right: validatedGrades => new ValidatedTotalPrice(validatedGrades),
+                            Right: validatedPrice => new ValidatedTotalPrice(validatedPrice),
                             LeftAsync: errorMessage => Task.FromResult((IProductPrice)new InvalidTotalPrice(totalPrice.ProductList, errorMessage))
                       );
 

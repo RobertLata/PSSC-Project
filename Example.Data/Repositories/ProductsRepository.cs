@@ -44,7 +44,7 @@ namespace Example.Data.Repositories
                                         ClientName = clients[p.ClientRegistrationName.Value].Single().ClientName,
                                         ProductPrice = p.ProductPrice.Price,
                                         ProductQuantity = p.ProductPrice.Quantity,
-                                        ProductName = "a"
+                                        ProductName = ""
 
                                     });
             var updatedProducts = products.ProductList.Where(p => p.IsUpdated && p.ProductCode != "")
@@ -54,7 +54,7 @@ namespace Example.Data.Repositories
                                         ClientName = clients[p.ClientRegistrationName.Value].Single().ClientName,
                                         ProductPrice = p.ProductPrice.Price,
                                         ProductQuantity = p.ProductPrice.Quantity,
-                                        ProductName = "a"
+                                        ProductName = ""
                                     });
 
             dbContext.AddRange(newProducts);
