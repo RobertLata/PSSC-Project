@@ -24,7 +24,7 @@ namespace Exemple
         static async Task Main(string[] args)
         {
             using ILoggerFactory loggerFactory = ConfigureLoggerFactory();
-            ILogger<CalculateTotalPriceWorkflow> logger = loggerFactory.CreateLogger<CalculateTotalPriceWorkflow>();
+            ILogger<BillingWorkflow> logger = loggerFactory.CreateLogger<BillingWorkflow>();
             var listOfProducts = ReadListOfProducts().ToArray();
             PublishProductsCommand command = new(listOfProducts);
             if (!isCommandCanceled)
@@ -35,7 +35,7 @@ namespace Exemple
                 ProductsContext productsContext = new ProductsContext(dbContextBuilder.Options);
                 ClientsRepository clientsRepository = new(productsContext);
                 ProductsRepository productsRepository = new(productsContext);
-                CalculateTotalPriceWorkflow workflow = new(clientsRepository, productsRepository, logger);
+                BillingWorkflow workflow = new(clientsRepository, productsRepository, logger);
                 var result = await workflow.ExecuteAsync(command);
 
                 result.Match(
